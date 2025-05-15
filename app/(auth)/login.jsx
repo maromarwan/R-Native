@@ -6,7 +6,7 @@ export default function Welcome() {
   const router = useRouter()
 
   return (
-    <View style={styles.container}>
+    <View className="flex justify-center items-center h-full">
       <Image
         source={require('../../assets/images/movie.png')}
         style={styles.image}
